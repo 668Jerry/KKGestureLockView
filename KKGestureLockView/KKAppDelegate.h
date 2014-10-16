@@ -16,4 +16,7 @@
 
 @property (strong, nonatomic) KKViewController *viewController;
 
+//[[KKPassword
+@property (strong, nonatomic) NSString *nssPasswordValue;
+//KKPassword]]
 @end

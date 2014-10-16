@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "KKGestureLockView.h"
+#import "KKAppDelegate.h"
 
 @interface KKViewController : UIViewController<KKGestureLockViewDelegate>
 {
@@ -17,6 +18,8 @@
     CGFloat cgfScreenWidth;
     CGFloat cgfScreenHeight;
     CGFloat cgfScreenHeightBase;
+    
+    KKAppDelegate *delegate;
 }
 
 @property (nonatomic, strong) KKGestureLockView *lockView;

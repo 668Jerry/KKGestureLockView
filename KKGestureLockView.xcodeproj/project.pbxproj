@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FCEFACF19EFAD70009301CC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEFACE19EFAD70009301CC /* Media.xcassets */; };
 		A338823818CE1D2400CEF8D1 /* KKGestureLockPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = A338823718CE1D2400CEF8D1 /* KKGestureLockPreviewView.m */; };
 		A399B43D17AED01800ADF304 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A399B43C17AED01800ADF304 /* UIKit.framework */; };
 		A399B43F17AED01800ADF304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A399B43E17AED01800ADF304 /* Foundation.framework */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8FCEFACE19EFAD70009301CC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		A338823618CE1D2400CEF8D1 /* KKGestureLockPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureLockPreviewView.h; sourceTree = "<group>"; };
 		A338823718CE1D2400CEF8D1 /* KKGestureLockPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureLockPreviewView.m; sourceTree = "<group>"; };
 		A399B43917AED01800ADF304 /* KKGestureLockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKGestureLockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,7 @@
 				A399B44E17AED01800ADF304 /* Default.png */,
 				A399B45017AED01800ADF304 /* Default@2x.png */,
 				A399B45217AED01800ADF304 /* Default-568h@2x.png */,
+				8FCEFACE19EFAD70009301CC /* Media.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				A399B46717AF507400ADF304 /* gesture_node_normal@2x.png in Resources */,
 				A399B46817AF507400ADF304 /* gesture_node_normal.png in Resources */,
 				A399B46917AF507400ADF304 /* gesture_node_selected@2x.png in Resources */,
+				8FCEFACF19EFAD70009301CC /* Media.xcassets in Resources */,
 				A399B46A17AF507400ADF304 /* gesture_node_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
