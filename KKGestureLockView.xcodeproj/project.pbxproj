@@ -18,7 +18,6 @@
 		A399B45117AED01800ADF304 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A399B45017AED01800ADF304 /* Default@2x.png */; };
 		A399B45317AED01800ADF304 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A399B45217AED01800ADF304 /* Default-568h@2x.png */; };
 		A399B45617AED01800ADF304 /* KKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A399B45517AED01800ADF304 /* KKViewController.m */; };
-		A399B45917AED01800ADF304 /* KKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A399B45717AED01800ADF304 /* KKViewController.xib */; };
 		A399B46717AF507400ADF304 /* gesture_node_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A399B46317AF507400ADF304 /* gesture_node_normal@2x.png */; };
 		A399B46817AF507400ADF304 /* gesture_node_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A399B46417AF507400ADF304 /* gesture_node_normal.png */; };
 		A399B46917AF507400ADF304 /* gesture_node_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A399B46517AF507400ADF304 /* gesture_node_selected@2x.png */; };
@@ -45,7 +44,6 @@
 		A399B45217AED01800ADF304 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A399B45417AED01800ADF304 /* KKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKViewController.h; sourceTree = "<group>"; };
 		A399B45517AED01800ADF304 /* KKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKViewController.m; sourceTree = "<group>"; };
-		A399B45817AED01800ADF304 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KKViewController.xib; sourceTree = "<group>"; };
 		A399B46317AF507400ADF304 /* gesture_node_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_node_normal@2x.png"; sourceTree = "<group>"; };
 		A399B46417AF507400ADF304 /* gesture_node_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture_node_normal.png; sourceTree = "<group>"; };
 		A399B46517AF507400ADF304 /* gesture_node_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gesture_node_selected@2x.png"; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				A399B44C17AED01800ADF304 /* KKAppDelegate.m */,
 				A399B45417AED01800ADF304 /* KKViewController.h */,
 				A399B45517AED01800ADF304 /* KKViewController.m */,
-				A399B45717AED01800ADF304 /* KKViewController.xib */,
 				A399B44317AED01800ADF304 /* Supporting Files */,
 			);
 			path = KKGestureLockView;
@@ -196,7 +193,6 @@
 				A399B44F17AED01800ADF304 /* Default.png in Resources */,
 				A399B45117AED01800ADF304 /* Default@2x.png in Resources */,
 				A399B45317AED01800ADF304 /* Default-568h@2x.png in Resources */,
-				A399B45917AED01800ADF304 /* KKViewController.xib in Resources */,
 				A399B46717AF507400ADF304 /* gesture_node_normal@2x.png in Resources */,
 				A399B46817AF507400ADF304 /* gesture_node_normal.png in Resources */,
 				A399B46917AF507400ADF304 /* gesture_node_selected@2x.png in Resources */,
@@ -229,14 +225,6 @@
 				A399B44617AED01800ADF304 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A399B45717AED01800ADF304 /* KKViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A399B45817AED01800ADF304 /* en */,
-			);
-			name = KKViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
